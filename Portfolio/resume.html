@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .resume-container {
+            text-align: center;
+            margin-top: 70px; /* Adjust the top margin to clear the navbar */
+            width: 100%; /* Full width of the viewport */
+        }
+
+        .resume-embed {
+            width: 100%;
+            max-width: none; /* Remove max-width limit */
+            height: calc(100vh - 70px); /* Adjust for navbar height */
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Arittra.</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="resume.html" class="active">Resume</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+        </nav>
+    </header>
+
+    <div class="resume-container">
+        <embed class="resume-embed" src="https://drive.google.com/uc?id=16c926l96s1mu6w1wjxx8R7qHXTHgqtVf" type="application/pdf">
+    </div>
+
+    <footer>
+		<p style="padding: 4px;">&copy; 2023 Arittra Bag. All rights reserved.</p>
+	</footer>
+</body>
+</html>
